@@ -344,7 +344,7 @@ export const getTestimonial = () => async (dispatch) => {
     } catch (error) {
         dispatch({
             type: GET_TESTIMONIAL_FAIL,
-            payload: error.response?.data?.message || "Something went wrong",
+            payload: error.response?.data?.message || "Please Wait backend is reload",
         });
     }
 };
