@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'https://api.unleashedsoftware.com/', // Correct base URL
+    baseURL: 'https://ampm-battery-backend.onrender.com/', // Correct base URL
+    // baseURL: 'https://api.unleashedsoftware.com/', // Correct base URL
     headers: {
 
         "Accept": "application/json",
