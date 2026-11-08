@@ -5,9 +5,9 @@ import "../styles/PaymentDetails.scss";
 import battery from "../assets/Battery.png";
 import { useDispatch, useSelector } from "react-redux";
 import { cancelOrder, clearErrors, downloadInvoice, myOrders } from "../actions/orderAction";
-import { UPDATE_ADMIN_ORDER_RESET } from "../../../admin/src/Constants/OrderConstants";
 import Swal from 'sweetalert2';
 import { ORDER_CANCEL_RESET } from "../constants/userConstants";
+import { UPDATE_ADMIN_ORDER_RESET } from "../constants/orderConstants";
 
 function ProductHistory() {
   const dispatch = useDispatch();
